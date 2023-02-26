@@ -14,7 +14,9 @@ results = notion.databases.query(
         "filter": {
             "property": "Status",
             "select": {
-                "equals": "Done"
+                "equals": {
+                    "name": "Done"
+                }
             }
         }
     }
