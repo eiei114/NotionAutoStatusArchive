@@ -1,4 +1,4 @@
-# Notion自動Status更新
+# Notion自動Status更新機能
 
 ## これは何？
 ![img.png](Images/img.png)
