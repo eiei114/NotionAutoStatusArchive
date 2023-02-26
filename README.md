@@ -1,5 +1,9 @@
 # Notion自動Status更新機能
 
+## Todo
+
+ - [ ] Zenn記事作成
+
 ## これは何？
 ![img.png](Images/img.png)
 
