@@ -2,6 +2,8 @@
 
 ## これは何？
 ![img.png](Images/img.png)
+
+
 NotionのStatusでDoneになって最終更新から三日後に自動でArchiveというステータスに変更する物になります。
 
 ## 設計
