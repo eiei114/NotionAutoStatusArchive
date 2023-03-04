@@ -1,7 +1,13 @@
-# Notion自動Status更新
+# Notion自動Status更新機能
+
+## Todo
+
+ - [ ] Zenn記事作成
 
 ## これは何？
 ![img.png](Images/img.png)
+
+
 NotionのStatusでDoneになって最終更新から三日後に自動でArchiveというステータスに変更する物になります。
 
 ## 設計
