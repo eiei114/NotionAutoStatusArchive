@@ -32,6 +32,7 @@ else:
 
         if delta.days >= 3:
             updated_props = {
+                "property": "Status",
                 "status": {
                     "name": "Archive"
                 }
