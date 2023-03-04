@@ -13,7 +13,7 @@ results = notion.databases.query(
         "database_id": database_id,
         "filter": {
             "property": "status",
-            "status": {
+            "Status": {
                 "equals": "Done"
             }
         }
@@ -33,7 +33,7 @@ else:
         if delta.days >= 3:
             updated_props = {
                 "property": "status",
-                "status": {
+                "Status": {
                     "name": "Archive"
                 }
             }
