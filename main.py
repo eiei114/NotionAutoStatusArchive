@@ -27,7 +27,7 @@ if not results:
 else:
     for result in results:
         page_id = result["id"]
-        last_edited_time = datetime.datetime.fromisoformat(result["last_edited_time"][:-1] + '+00:00')
+        last_edited_time = datetime.datetime.fromisoformat(result["LastUpDate"][:-1] + '+00:00')
         delta = now - last_edited_time
 
         if delta.days >= 3:
